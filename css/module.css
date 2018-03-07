@@ -1,0 +1,11 @@
+nav header {
+  float: left;
+}
+ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.social {
+  margin: 7.5%;
+}
