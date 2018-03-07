@@ -1,0 +1,48 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid div {
+  background-color: rgba(0,95,107,0.8);
+}
+
+#div1 {
+  grid-column: auto;
+  grid-row: auto;
+}
+
+#div2 {
+  grid-column: auto;
+  grid-row: auto;
+}
+
+#div3 {
+  grid-column: auto;
+  grid-row: auto;
+}
+
+#div4 {
+  grid-column: auto;
+  grid-row: auto;
+}
+
+#div5 {
+  grid-column: auto;
+  grid-row: auto;
+}
+
+#div6 {
+  grid-column: auto;
+  grid-row: auto;
+}
+
+#div7 {
+  grid-column: auto;
+  grid-row: auto;
+}
+
+#div8 {
+  grid-column: auto;
+  grid-row: auto;
+}
