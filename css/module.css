@@ -1,11 +1,65 @@
-nav header {
-  float: left;
-}
-ul {
-  list-style-type: none;
-  display: inline-flex;
+@media only screen and (max-width: 385px) {
+  nav header {
+    float: left;
+    font-size: 4em;
+  }
+
+  #hamburger {
+    font-size: 1em;
+    float: right;
+    margin-right: 2%;
+  }
+
+  ul {
+    list-style-type: none;
+    display: inline-flex;
+  }
+
+  .social {
+    margin: 7.5%;
+  }
 }
 
-.social {
-  margin: 7.5%;
+
+
+@media only screen and (max-width: 780px) and (min-width: 386px) {
+  nav header {
+    float: left;
+  }
+
+  #hamburger {
+    float: right;
+    margin-right: 5px;
+  }
+
+  ul {
+    list-style-type: none;
+    display: inline-flex;
+  }
+
+  .social {
+    margin: 7.5%;
+  }
+}
+
+
+@media only screen and (min-width: 781px) {
+  
+  nav header {
+    float: left;
+    font-size: 2em;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  ul {
+    list-style-type: none;
+    display: inline-flex;
+  }
+
+  .social {
+    margin: 7.5%;
+  }
 }
